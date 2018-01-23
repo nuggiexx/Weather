@@ -2,7 +2,7 @@ body {
   /*background-color: #020216;*/
   color: white;
   font-family: 'Raleway', sans-serif;
-  background: url("https://media2.s-nbcnews.com/i/MSNBC/Components/Video/__NEW/Capsule%20Balloon%20Space_131112.jpg");
+  background: url("https://media2.s-nbcnews.com/i/MSNBC/Components/Video/__NEW/Capsule%20Balloon%20Space_131112.jpg") norepeat;
   background-position: center;
   background-attachment: fixed;
   height: 100vh;
