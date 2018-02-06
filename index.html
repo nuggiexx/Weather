@@ -1,33 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Weather</title>
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
-  <link rel="stylesheet" type="text/css" href="./style.css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-</head>
-
-<body>
-  <div>
-    <h1 class="text-center" id="topWords">Your local weather</h1>
-
-    <div id="data">
-      <div id='area' class="text-center"></div>
-      <div id='icons' class="text-center"></div>
-      <div id='temperF' class="text-center"></div>
-      <div id='temperC' class="text-center"></div>
-      <div id='description' class="text-center"></div>
-      <button id='fButton' onclick='changeF()' class="btn">Fahrenheit</button>
-      <button id='cButton' onclick='changeC()' class="btn">Celsius</button>
+  <head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  </head>
+  <body>
+    <div>
+      <h1 class="text-center" id="topWords">Your local weather</h1>
+      <div id="data">
+        <div id='area' class="text-center"></div>
+        <div id='icons' class="text-center"></div>
+        <div id='temperF' class="text-center"></div>
+        <div id='temperC' class="text-center"></div>
+        <div id='description' class="text-center"></div>
+        <button id='fButton' onclick='changeF()' class="btn">Fahrenheit</button>
+        <button id='cButton' onclick='changeC()' class="btn">Celsius</button>
+      </div>
+      <p class="text-center" id="name">Made by Ashley Hernandez</p>
     </div>
 
-    <p class="text-center" id="name">Made by Ashley Hernandez</p>
-
-  </div>
-
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-  <script type="text/javascript" src="./index.js"></script>
-
-</body>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
 </html>
