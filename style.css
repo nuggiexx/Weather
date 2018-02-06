@@ -5,6 +5,7 @@ body {
   background: url("https://media2.s-nbcnews.com/i/MSNBC/Components/Video/__NEW/Capsule%20Balloon%20Space_131112.jpg");
   background-position: center;
   background-attachment: fixed;
+  background-size: cover;
   height: 100vh;
 }
 
